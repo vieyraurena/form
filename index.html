@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+  <div class="img" id="img">
+    <img src="img/02.jpg" alt="leaves">
+  </div>
+  <div class="container">
+    <div class="container-form clearfix">
+      <form id="new-info-form" class="form">
+        <h1>Conctáctenos</h1>
+        <label for="new-inf-input">Nombre</label>
+        <input type="text" id="new-inf-input" required>
+        <label for="new-inf-email">Correo electrónico</label>
+        <input type="text" id="new-inf-email" required>
+        <label for="new-inf-phone">Teléfono</label>
+        <input type="text" id="new-inf-phone">
+        <label for="new-inf-affair">Asunto</label>
+        <input type="text" id="new-inf-affair" required>
+        <label for="new-inf-msj">Mensaje</label>
+        <textarea name="" id="new-inf-msj" cols="38" rows="5"></textarea>
+        <input type="submit" value="Enviar" id="new-info-send">
+      </form>
+    </div>
+  </div>
+  <div id="info-list" class="modal">
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html
