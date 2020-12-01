@@ -1,1 +1,106 @@
-@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");.img{position:fixed}.img img{max-width:100%;width:100%}h1{margin:0;padding:20px 0 10px;font-size:1.5rem;text-align:center;text-transform:uppercase;letter-spacing:5px;color:#333c4d}label{display:block;margin-bottom:10px;font-size:1rem;color:#333c4d;font-weight:800}input{margin-bottom:20px;font-size:1.125rem;padding:0.5rem;padding-right:12.3rem;border-radius:5px;background-color:#fff;border:1px solid #cccc}input[type="submit"]{padding:0.5rem 3rem;background-color:#333c4d;color:#fff}textarea{border:1px solid #cccc;margin-bottom:20px;border-radius:5px;padding:0;background-color:#fff}.modal{width:800px;background-color:#bacbab;position:fixed;top:200px;left:400px;display:block}.modal-content{padding:60px;color:#333c4d;position:relative}.modal-content h3{font-size:1.5rem}.modal-content ul{margin:40px}span{position:absolute;top:20px;right:40px}.btn{border:1px solid #333c4d;border-radius:5px;background-color:#bacbab;color:#333c4d;padding:0.5rem 3rem;margin-top:10px}.filter{filter:blur(3px)}.display{display:block}*{margin:0;padding:0;font-size:16px;position:relative}.clearfix::after{content:"";clear:both;display:table}body{font-family:"Concert One"}.container{max-width:30%;margin-left:850px;background-color:#f9f9f9;box-shadow:0px 10px 9px 4px #dad8d8;position:absolute;top:50px}.container-form{width:80%;padding:10px;margin:0 auto}
+/*configuraciones*/
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+/*partials*/
+.img {
+  position: fixed; }
+  .img img {
+    max-width: 100%;
+    width: 100%; }
+
+h1 {
+  margin: 0;
+  padding: 20px 0 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #333c4d; }
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333c4d;
+  font-weight: 800; }
+
+input {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  background-color: #ffffff;
+  color: #333c4d;
+  padding: 0.5rem;
+  padding-right: 50%;
+  border-radius: 5px;
+  border: 1px solid #cccc; }
+  input[type="submit"] {
+    padding: 0.5rem 3rem;
+    background-color: #333c4d;
+    color: #fff; }
+  input::placeholder {
+    color: #d3d3dd;
+    font-weight: lighter;
+    font-size: 0.9rem; }
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333c4d;
+  background-color: #ffffff;
+  border: 1px solid #cccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 0; }
+
+.modal {
+  width: 800px;
+  background-color: #333c4d;
+  position: fixed;
+  top: 200px;
+  left: 400px;
+  display: none;
+  border-radius: 5px; }
+
+.modal-content {
+  padding: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  position: relative; }
+  .modal-content h3 {
+    font-size: 1.5rem; }
+  .modal-content ul {
+    margin: 40px; }
+  .modal-content li {
+    line-height: 1.5rem; }
+
+/*CLASES PARA USAR EN JS*/
+.filter {
+  filter: blur(3px); }
+
+.display {
+  display: block; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  position: relative; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+body {
+  font-family: "Concert One"; }
+
+.container {
+  max-width: 500px;
+  margin-left: 750px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 10px 9px 4px #dad8d8;
+  position: absolute;
+  top: 50px; }
+
+.container-form {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto; }
